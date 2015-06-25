@@ -1,0 +1,38 @@
+* {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.game-container {
+  width: 775px;
+  height: 703px;
+  border: 1px solid red;
+  margin: auto;
+  position: relative;
+  background: teal;
+}
+
+.action-container {
+  width: 65%;
+  border: 1px solid blue;
+  float: left;
+}
+
+.feedback-container {
+  width: 35%;
+  border: 1px solid yellow;
+  float: right;
+}
+
+.grid-row {
+  width: 100%;
+  height: 50px;
+}
+
+.grid-sq {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+}
