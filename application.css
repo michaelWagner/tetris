@@ -52,3 +52,14 @@
 .new-game-button {
   height: 20px;
 }
+
+#piece-queue {
+  margin: auto;
+  height: 122px;
+  width: 152px;
+  -webkit-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
+  -moz-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
+  box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
+  border: 1px solid #333;
+  background-color: white;
+}
