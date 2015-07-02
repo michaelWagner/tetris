@@ -14,7 +14,7 @@ body {
   width: 467px;
   /*height: 703px;*/
   height: 424px;
-  border: 1px solid red;
+  border: 1px solid #222;
   margin: auto;
   position: relative;
   background: #333;
@@ -22,13 +22,13 @@ body {
 
 .action-container {
   /*width: 65%;*/
-  border: 1px solid blue;
+  border: 1px solid #222;
   float: left;
 }
 
 .feedback-container {
   width: 35%;
-  border: 1px solid yellow;
+  border: 1px solid #222;
   float: right;
   -webkit-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
   -moz-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
