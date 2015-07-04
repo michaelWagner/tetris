@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #444;
+  background-color: black;
 }
 
 .game-container {
@@ -17,7 +17,8 @@ body {
   border: 1px solid #222;
   margin: auto;
   position: relative;
-  background: #333;
+  /*background: #333;*/
+  background: #2F4F4F;
 }
 
 .action-container {
@@ -33,7 +34,8 @@ body {
   -webkit-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
   -moz-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
   box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
-  background: #333;
+  /*background: #333;*/
+  background: #2F4F4F;
 }
 
 .grid-row {
@@ -52,7 +54,8 @@ body {
   height: 30px;
   border: 1px solid black;
   float: left;
-  background-color: #333;
+  /*background-color: #333;*/
+  background-color: #2F4F4F;
 }
 
 .new-game-button {
@@ -67,7 +70,8 @@ body {
   -moz-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
   box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
   border: 1px solid #333;
-  background-color: #777;
+  /*background-color: #777;*/
+  /*background-color: black;*/
 }
 
 .score {
