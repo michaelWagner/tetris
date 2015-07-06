@@ -1,8 +1,8 @@
 * {
-  /*width: 100%;*/
   height: 100%;
   box-sizing: border-box;
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 body {
@@ -10,19 +10,15 @@ body {
 }
 
 .game-container {
-  /*width: 775px;*/
   width: 467px;
-  /*height: 703px;*/
-  height: 424px;
+  height: 484px;
   border: 1px solid #222;
   margin: auto;
   position: relative;
-  /*background: #333;*/
   background: #2F4F4F;
 }
 
 .action-container {
-  /*width: 65%;*/
   border: 1px solid #222;
   float: left;
 }
@@ -34,19 +30,15 @@ body {
   -webkit-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
   -moz-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
   box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
-  /*background: #333;*/
   background: #2F4F4F;
 }
 
 .grid-row {
   width: 100%;
-  /*height: 50px;*/
   height: 30px;
 }
 
 .grid-sq {
-  /*width: 50px;
-  height: 50px;*/
   -webkit-box-shadow: inset -4px 4px 15px 3px rgba(0,0,0,0.47);
   -moz-box-shadow: inset -4px 4px 15px 3px rgba(0,0,0,0.47);
   box-shadow: inset -4px 4px 15px 3px rgba(0,0,0,0.47);
@@ -54,7 +46,6 @@ body {
   height: 30px;
   border: 1px solid black;
   float: left;
-  /*background-color: #333;*/
   background-color: #2F4F4F;
 }
 
@@ -70,12 +61,24 @@ body {
   -moz-box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
   box-shadow: inset 0px 4px 81px 3px rgba(0,0,0,0.47);
   border: 1px solid #333;
-  /*background-color: #777;*/
-  /*background-color: black;*/
 }
 
 .score {
   color: #efefef;
   height: 19px;
   background-color: transparent;
+}
+
+.instructions {
+}
+
+.about {
+  color: white;
+  /*width: 294px;*/
+  width: 314px;
+  margin: auto;
+}
+
+.about-link {
+  color: white;
 }
