@@ -92,11 +92,10 @@ body {
   height: 88px;
   margin-left: 22px;
   position: relative;
-  top: 93px;
+  top: 60px;
 }
 
 .instructions > span {
-  top: auto;
   display: inline-block;
   color: #bbb;
 }
