@@ -51,6 +51,7 @@ body {
 
 .new-game-button {
   height: 20px;
+  margin: 44px 44px 10px;
 }
 
 #piece-queue {
@@ -64,21 +65,48 @@ body {
 }
 
 .score {
-  color: #efefef;
+  color: #bbb;
   height: 19px;
+  margin-left: 22px;
   background-color: transparent;
+  /*border: 1px solid #333;*/
+}
+
+.level {
+  color: #bbb;
+  height: 19px;
+  margin-left: 22px;
+  background-color: transparent;
+  /*border: 1px solid #333;*/
+}
+
+.rows-cleared {
+  color: #bbb;
+  height: 19px;
+  margin-left: 22px;
+  background-color: transparent;
+  /*border: 2px solid #333;*/
 }
 
 .instructions {
+  height: 88px;
+  margin-left: 22px;
+  position: relative;
+  top: 93px;
+}
+
+.instructions > span {
+  top: auto;
+  display: inline-block;
+  color: #bbb;
 }
 
 .about {
-  color: white;
-  /*width: 294px;*/
+  color: #bbb;
   width: 314px;
   margin: auto;
 }
 
 .about-link {
-  color: white;
+  color: #bbb;
 }
