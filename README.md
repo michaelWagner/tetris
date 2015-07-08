@@ -4,4 +4,4 @@
 
 [tetris]: https://michaelwagner.github.io/tetris/
 
-A JavaScript implementation of the classic game.
+A JavaScript/jQuery implementation of the classic game.
